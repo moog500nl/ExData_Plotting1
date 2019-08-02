@@ -36,7 +36,7 @@ with(data1, {
 
 
 ## PNG output file
-dev.copy(png, file="plot4.png", height=480, width=480)
+dev.copy(png, file="plot4.png", height=800, width=800)
 
 ## close graphics device
 dev.off()
