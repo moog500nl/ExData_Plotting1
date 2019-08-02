@@ -20,7 +20,11 @@ data1$Date <- as.Date(data1$Date, format="%d/%m/%Y")
 hist(data1$Global_active_power, main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
+## PNG output file
+dev.copy(png, file="plot4.png", height=480, width=480)
 
+## close graphics device
+dev.off()
 
 
 
